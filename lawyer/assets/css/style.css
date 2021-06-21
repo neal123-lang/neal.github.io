@@ -1,0 +1,1110 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: 'Raleway', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,ul,p{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 16px;
+    line-height: 24px;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 18px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.flex-row{
+    display: flex;
+    flex-flow: row wrap;
+}
+.top-header{
+    width: 100%;
+    padding: 8px 0px 12px 0px;
+    border-bottom: 1px solid rgb(241, 241, 241);
+    
+}
+.top-header-wrap{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-header-wrap, .left-header-wrap li, .left-header-wrap li a{
+    display: inline-block;
+}
+.left-header-wrap li i{
+    color: #cca776;
+    font-size: 13px;
+    padding-right: 8px;
+}
+.left-header-wrap li a{
+    color: #181d26;
+    margin-right: 18px;
+    font-size: 13px;
+    font-weight: 500;
+    transition: 0.4s;
+}
+.left-header-wrap li a:hover{
+    color: #cca776;
+    transition: 0.4s;
+}
+.right-header-wrap, .right-header-wrap li,
+.right-header-wrap li a{
+    display: inline-block;
+}
+.right-header-wrap li a{
+    color: #cca776;
+    font-size: 13px;
+    padding-left: 12px;
+    transition: 0.4s;
+}
+.right-header-wrap li a:hover{
+    color: #181d26;
+    transition: 0.4s;
+}
+.header{
+    width: 100%;
+    padding: 10px 0px;
+   
+}
+.header-wrap{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul, nav ul li, nav ul li a{
+    display: inline-block;
+}
+nav ul li a{
+    color: #181d26;
+    font-size: 13px;
+    font-weight: 500;
+    padding-left: 25px;
+    transition: 0.4s;
+}
+nav ul li a:hover{
+    color: #cca776;
+    transition: 0.4s;
+}
+.banner{
+    width: 100%;
+    position: relative;
+}
+.banner-text-wrap{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.banner-text-wrap h3{
+    color: #fff;
+    font-size: 28px;
+    padding-bottom: 6px;
+}
+.banner-text-wrap h1{
+    color: #fff;
+    font-size: 60px;
+    padding-bottom: 25px;
+}
+.btn-banner{
+    display: inline-block;
+    background-color: #cca776;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 20px;
+}
+.banner-text-wrap p{
+    color: #fff;
+    font-size: 14px;
+    margin: 10px 0px;
+}
+.banner-text-wrap h4{
+    font-size: 26px;
+    color: #fff;
+}
+.banner-text-wrap h4 a{
+    font-size: 40px;
+    color: #fff;
+    transition: 0.4s;
+}
+.banner-text-wrap h4 a:hover{
+    color: #cca776;
+    transition: 0.4s;
+}
+.btn-banner-2{
+    display: inline-block;
+    background-color: #cca776;
+    color: #fff;
+    padding: 8px 16px;
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.banner .owl-nav{
+    position: absolute;
+    top: 40%;
+    left: 0px;
+    color: #fff !important;
+    width: 100%;
+}
+.banner .owl-prev{
+    position: absolute;
+    left: 20px;
+
+}
+.banner .owl-next{
+    position: absolute;
+    right: 20px;
+}
+.banner .owl-prev span{
+    font-size: 50px;
+}
+.banner .owl-next span{
+    font-size: 50px;
+}
+.achievements{
+    width: 100%;
+    background-color: rgba(24, 29, 38, .7);
+    position: absolute;
+    bottom: 15px;
+    left: 0px;
+    z-index: 2;
+    padding: 25px 0px;
+}
+.achievements-wrap{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.achievements-text-wrap{
+    width: 24%;
+    text-align: center;
+    color: #cca776;
+    border-right: 1px solid rgba(204, 167, 118, .3);
+}
+.achievements-text-wrap:last-child{
+    border-right: none;
+}
+.achievements-text-wrap h4{
+    font-size: 18px;
+    font-style: italic;
+}
+.counter{
+    font-size: 50px;
+    padding-bottom: 8px;
+}
+.welcome{
+    width: 100%;
+    margin: 80px 0px;
+}
+.welcome-text-wrap{
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+.welcome-text-wrap h3{
+    font-size: 35px;
+    color: #181d26;
+    padding-bottom: 15px;
+}
+.welcome-text-wrap p{
+    color: #181d26;
+}
+.hiring{
+    width: 100%;
+    background-image: url(../images/parallex.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0px;
+}
+.hiring-head{
+    width: 100%;
+    text-align: center;
+}
+.hiring-head h3{
+    font-size: 29px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.hiring-wrap{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.hiring-text-wrap{
+    width: 20%;
+    box-sizing: border-box;
+    text-align: center;
+}
+.hiring-info{
+    width: 100%;
+}
+.hiring-info h4{
+    color: #fff;
+    padding-bottom: 14px;
+    font-size: 19px;
+}
+.hiring-info p{
+    color: #fff;
+    font-size: 13px;
+    line-height: 23px;
+}
+.hiring-text-wrap img{
+    margin-bottom: 20px;
+}
+.hiring-info a{
+    color: #cca776;
+    font-size: 13px;
+    font-weight: 600;
+}
+.practice-areas{
+    width: 100%;
+    margin: 60px 0px 30px 0px;
+}
+.areas-head{
+    width: 100%;
+    text-align: center;
+}
+.areas-head h3{
+    font-size: 30px;
+    color: #181d26;
+    margin-bottom: 50px;
+}
+.areas-wrap{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.areas-text-wrap{
+    width: 30%;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+.areas-text-wrap h2{
+    font-size: 55px;
+    color: #cca776;
+    padding-bottom: 12px;
+    font-weight: 700;
+}
+.areas-text-wrap a{
+    color: #181d26;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.4s;
+}
+.areas-text-wrap a:hover{
+    color: #cca776;
+    transition: 0.4s;
+}
+.areas-text-wrap p{
+    font-size: 13px;
+    line-height: 22px;
+    padding-top: 12px;
+    color: #414141;
+}
+.consult{
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/consult-img.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.consult-wrap{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.consult-wrap h2{
+    font-size: 38px;
+    color: #fff;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+.btn-consult{
+    display: inline-block;
+    padding: 10px 16px;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 13px;
+    font-weight: 800;
+    word-spacing: 3px;
+    transition: 0.4s;
+}
+.btn-consult:hover{
+    background-color: #fff;
+    border: none;
+    color: #181d26;
+    transition: 0.4s;
+}
+.testimoni{
+    width: 100%;
+    margin: 60px 0px;
+}
+.testimoni-head{
+    width: 100%;
+    text-align: center;
+}
+.testimoni-head h3{
+    font-size: 30px;
+    color: #181d26;
+    margin-bottom: 50px;
+}
+.testimoni-wrap{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.testimoni-text-wrap{
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 18px;
+    box-sizing: border-box;
+}
+.testimoni-text-wrap p{
+    margin: 15px 0px;
+    color: #414141;
+    font-size: 13px;
+    line-height: 23px;
+    font-style: oblique;
+}
+.img-testi-box{
+    width: 28%;
+    margin: 0 auto;
+}
+.testimoni-text-wrap h4{
+    font-size: 14px;
+    color: #cca776;
+}
+.brands{
+    width: 100%;
+    background-color: rgb(245, 244, 244);
+    padding: 50px 0px;
+}
+.brands-head{
+    width: 100%;
+    text-align: center;
+}
+.brands-head h3{
+    font-size: 30px;
+    color: #181d26;
+    margin-bottom: 50px;
+}
+.brands-wrap{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand-img-box{
+    width: 50%;
+    margin: 0 auto;
+}
+.cases{
+    width: 100%;
+    background-image: url(../images/cases-banner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 0px;
+}
+.case-wrap{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.case-text-wrap{
+    width: 30%;
+}
+.case-text-wrap h3{
+    color: #fff;
+    font-size: 30px;
+}
+.case-text-wrap p{
+    color: #fff;
+    font-size: 14px;
+    line-height: 23px;
+    padding: 15px 0px 25px 0px;
+}
+.btn-case{
+    display: inline-block;
+    background-color: #cca776;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: 800;
+}
+.case-img-wrap{
+    width: 42%;
+}
+.news{
+    width: 100%;
+    margin: 60px 0px;
+}
+.news-head{
+    width: 100%;
+    text-align: center;
+}
+.news-head h3{
+    color: #181d26;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.news-wrap{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.news-text-wrap{
+    width: 30%;
+}
+.news-text-wrap img{
+    max-width: 100%;
+}
+.news-text-wrapper{
+    width: 100%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: -5px;
+    padding: 15px 10px;
+}
+.news-info{
+    color: #181d26;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    padding-bottom: 10px;
+    line-height: 22px;
+    transition: 0.4s;
+}
+.news-more-info{
+    color: #181d26;
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 15px;
+    transition: 0.4s;
+}
+.news-author{
+    color: #cca776;
+    font-size: 11px;
+    font-style: oblique;
+    font-weight: 500;
+}
+.news-text-wrap a:hover{
+    color: #cca776;
+    transition: 0.4s;
+}
+.more-brands{
+    width: 100%;
+    background-image: url(../images/bg-img.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0px;
+}
+.more-brands-wrap{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.more-brands-head{
+    width: 100%;
+    text-align: center;
+}
+.more-brands-head h3{
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.more-text-brands-wrap{
+    width: 12%;
+}
+.more-text-brands-wrap img{
+    max-width: 100%;
+}
+.footer{
+    width: 100%;
+    background-color: #181d26;
+    padding: 60px 0px;
+}
+.footer-wrap{
+    width: 100%;
+    justify-content: space-between;
+}
+.footer-text-wrap{
+    width: 18%;
+    box-sizing: border-box;
+}
+.footer-text-wrap h4{
+    color: #fff;
+    margin-bottom: 18px;
+    font-size: 17px;
+}
+.footer-text-wrap p{
+    color: #fff;
+    font-size: 13px;
+    line-height: 24px;
+}
+.footer-text-wrap ul li a{
+    color: #cca776;
+    font-size: 13px;
+    display: block;
+    padding-bottom: 16px;
+    line-height: 22px;
+    transition: 0.4s;
+}
+.footer-text-wrap li{
+    color: #fff;
+    font-size: 13px;
+}
+.footer-text-wrap li a:hover{
+    color: #fff;
+    transition: 0.4s;
+}
+.copyright{
+    width: 100%;
+    background-color: #040b18;
+    padding: 30px 0px;
+}
+.copyright-wrap{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyright-text-wrap{
+    width: 17%;
+    box-sizing: border-box;
+}
+.copyright-text-wrap h5{
+    color: #fff;
+    font-size: 12px;
+}
+.copyright-text-wrap ul, .copyright-text-wrap ul li, .copyright-text-wrap ul li a{
+    display: inline-block;
+}
+.copyright-text-wrap ul li a{
+    color: #fff;
+    font-size: 13px;
+    padding-left: 15px;
+    transition: 0.4s;
+}
+.copyright-text-wrap li a:hover{
+    color: #cca776;
+    transition: 0.4s;
+}
+@media(max-width: 1200px){
+   .achievements{
+        display: none;
+   } 
+}
+@media(max-width: 800px){
+    nav ul li a{
+        padding-left: 18px;
+        font-size: 11px;
+    }
+    .left-header-wrap li a{
+        font-size: 11px;
+    }
+    .right-header-wrap li a{
+        font-size: 11px;
+    }
+    .top-header{
+        padding: 5px 0px 9px 0px;
+    }
+    .banner-text-wrap h3{
+        font-size: 18px;
+        padding-bottom: 4px;
+    }
+    .banner-text-wrap h1{
+        font-size: 40px;
+        padding-bottom: 18px;
+    }
+    .banner-text-wrap p{
+        margin: 7px 0px;
+    }
+    .btn-banner-2{
+        margin: 6px 0px;
+    }
+    .welcome-text-wrap h3{
+        font-size: 24px;
+    }
+    .welcome-text-wrap p{
+        font-size: 13px;
+    }
+    .welcome{
+        margin: 40px 0px;
+    }
+    .hiring{
+        padding: 40px 0px;
+    }
+    .hiring-head h3{
+        font-size: 20px;
+        margin-bottom: 28px;
+    }
+    .hiring-text-wrap{
+        width: 100%;
+    }
+    .hiring-text-wrap p{
+        padding-bottom: 35px;
+    }
+    .hiring-text-wrap img{
+        margin-bottom: 12px;
+    }
+    .hiring-text-wrap:last-child p{
+        padding-bottom: 0px;
+    }
+    .areas-head h3{
+        margin-bottom: 28px;
+        font-size: 20px;
+    }
+    .areas-text-wrap{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .areas-text-wrap h2{
+        font-size: 40px;
+        padding-bottom: 8px;
+    }
+    .areas-text-wrap a{
+        font-size: 16px;
+    }
+    .areas-text-wrap p{
+        padding-top: 10px;
+    }
+    .consult{
+        height: 250px;
+    }
+    .consult-wrap h2{
+        font-size: 28px;
+        padding-bottom: 18px;
+    }
+    .practice-areas{
+        margin: 40px 0px;
+    }
+    .testimoni{
+        margin: 40px 0px;
+    }
+    .testimoni-head h3{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .brands{
+        padding: 40px 0px;
+    }
+    .brands-head h3{
+        font-size: 20px;
+        margin-bottom: 28px;
+    }
+    
+    .case-text-wrap{
+        width: 100%;
+        text-align: center;
+    }
+    .btn-case{
+        margin-bottom: 40px;
+    }
+    .case-img-wrap{
+        margin: 0 auto;
+        width: auto;
+    }
+    .news{
+        margin: 40px 0px;
+    }
+    .news-head h3{
+        font-size: 20px;
+        margin-bottom: 28px;
+    }
+    .news-text-wrap{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    .news-text-wrap:last-child{
+        margin-bottom: 0px;
+    }
+    .news-text-wrap img{
+        max-width: 100%;
+        margin-bottom: -5px;
+    }
+    .news-text-wrapper{
+        width: 57%;
+        margin: 0 auto;
+        padding: 10px 6px;
+    }
+    .news-info{
+        font-size: 13px;
+        padding-bottom: 6px;
+    }
+    .more-brands{
+        padding: 40px 0px;
+    }
+    .more-brands-head h3{
+       font-size: 20px;
+       margin-bottom: 30px;
+    }
+    .more-text-brands-wrap{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    .more-text-brands-wrap:last-child{
+        margin-bottom: 0px;
+    }
+    .footer{
+        padding: 40px 0px;
+    }
+    .footer-text-wrap{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .copyright-text-wrap{
+        width: auto;
+    }
+    .copyright{
+        padding: 20px 0px;
+    }
+}
+@media(max-width: 500px){
+    .top-header{
+        display: none;
+    }
+    .header-wrap .logo{
+        margin: 0 auto;
+    }
+    .banner-text-wrap p{
+        display: none;
+    }
+    .banner-text-wrap h1{
+        font-size: 24px;
+        padding-bottom: 14px;
+    }
+    .banner-text-wrap h3{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .banner-text-wrap h4 a{
+        font-size: 22px;
+    }
+    .banner-text-wrap h4{
+        font-size: 18px;
+    }
+    .btn-banner-2{
+        padding: 6px 12px;
+        font-size: 11px;
+    }
+    .btn-banner{
+        padding: 6px 12px;
+        font-size: 11px;
+    }
+    .welcome-text-wrap h3{
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+    .welcome-text-wrap p{
+        line-height: 22px;
+        font-size: 12px;
+    }
+    .welcome{
+        margin: 30px 0px;
+    }
+    .hiring-head h3{
+     font-size: 16px;
+     margin-bottom: 20px;
+    }
+    .hiring{
+        padding: 30px 0px;
+    }
+    .hiring-info h4{
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+    .hiring-info p{
+        font-size: 12px;
+        line-height: 22px;
+        padding-bottom: 28px;
+    }
+    .practice-areas{
+        margin: 30px 0px;
+    }
+    .areas-head h3{
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .areas-text-wrap h2{
+        font-size: 30px;
+    }
+    .areas-text-wrap a{
+        font-size: 14px;
+    }
+    .areas-text-wrap p{
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .areas-text-wrap{
+        margin-bottom: 10px;
+    }
+    .consult-wrap h2{
+        font-size: 20px;
+        padding-bottom: 12px;
+    }
+    .consult{
+        height: 180px;
+    }
+    .btn-consult{
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+    .testimoni-head h3{
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+    .testimoni{
+        margin: 30px 0px;
+    }
+    .testimoni-text-wrap p{
+        font-size: 12px;
+        line-height: 22px;
+        margin: 10px 0px;
+    }
+    .brands-head h3{
+        font-size: 16px;
+    }
+    .brands{
+        padding: 30px 0px;
+    }
+    .cases{
+        padding: 50px 0px;
+    }
+    .case-text-wrap h3{
+        font-size: 16px;
+    }
+    .case-text-wrap p{
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .case-img-wrap img{
+        max-width: 100%;
+    }
+    .news-text-wrap{
+       margin-bottom: 40px;
+    }
+    .news-text-wrap img{
+        max-width: 100%;
+    }
+    .news-text-wrapper{
+        width: 100%;
+    }
+    .more-brands{
+        padding: 30px 0px;
+    }
+    .more-brands-head h3{
+        font-size: 16px;
+    }
+    .more-text-brands-wrap img{
+        max-width: 30%;
+    }
+    .more-text-brands-wrap{
+        margin-bottom: 40px;
+    }
+    .footer{
+        padding: 30px 0px;
+    }
+    .footer-text-wrap h4{
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+    .footer-text-wrap p{
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .footer-text-wrap{
+        margin-bottom: 25px;
+    }
+    .footer-text-wrap:last-child{
+        margin-bottom: 0px;
+    }
+    .footer-text-wrap ul li a{
+        padding-bottom: 10px;
+        font-size: 12px;
+    }
+    .footer-text-wrap ul li:last-child a{
+        padding-bottom: 0px;
+    }
+}
+@media(max-width: 380px){
+    .banner-text-wrap h3{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .banner-text-wrap h4 a{
+        font-size: 18px;
+    }
+    .banner-text-wrap h1{
+        font-size: 20px;
+        padding-bottom: 12px;
+    }
+    .consult{
+        height: 150px;
+    }
+    .consult-wrap h2{
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+    .hiring-head h3{
+        font-size: 15px;
+    }
+    .hiring-info h4{
+        font-size: 13px;
+    }
+    .areas-head h3{
+        font-size: 15px;
+    }
+    .areas-text-wrap a{
+        font-size: 13px;
+    }
+    .testimoni-head h3{
+        font-size: 15px;
+    }
+    .brands-head h3{
+        font-size: 15px;
+    }
+    .case-text-wrap h3{
+        font-size: 15px;
+    }
+    .news-head h3{
+        font-size: 15px;
+    }
+    .footer-text-wrap h4{
+        font-size: 13px;
+    }
+}
+@media(max-width: 280px){
+    .banner .owl-next span{
+        font-size: 30px;
+    }
+    .banner .owl-prev span{
+        font-size: 30px;
+    }
+    .banner-text-wrap h1{
+        font-size: 16px;
+    }
+    .banner-text-wrap h3{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .banner-text-wrap h4{
+        font-size: 12px;
+    }
+    .banner-text-wrap h4 a{
+        font-size: 16px;
+    }
+    .btn-banner-2{
+        padding: 4px 10px;
+        font-size: 10px;
+    }
+    .btn-banner{
+        padding: 4px 10px;
+        font-size: 10px;
+    }
+    .welcome-text-wrap h3{
+        font-size: 14px;
+    }
+    .welcome-text-wrap p{
+        font-size: 11px;
+        line-height: 20px;
+    }
+    .hiring-head h3{
+        font-size: 14px;
+    }
+    .hiring-text-wrap p{
+        font-size: 11px;
+        line-height: 20px;
+    }
+    .areas-head h3{
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+    .areas-text-wrap p{
+        font-size: 11px;
+        line-height: 21px;
+    }
+    .consult{
+        height: 120px;
+    }
+    .consult-wrap h2{
+        font-size: 15px;
+    }
+    .btn-consult{
+        padding: 4px 10px;
+        font-size: 10px;
+    }
+    .testimoni-head h3{
+        font-size: 14px;
+    }
+    .testimoni-text-wrap p{
+        font-size: 11px;
+        line-height: 21px;
+    }
+    .testimoni-text-wrap h4{
+        font-size: 12px;
+    }
+    .brands-head h3{
+        font-size: 14px;
+    }
+    .case-text-wrap h3{
+        font-size: 14px;
+    }
+    .case-text-wrap p{
+        font-size: 11px;
+        line-height: 21px;
+        padding: 12px 0px 18px 0px;
+    }
+    .cases{
+        padding: 30px 0px;
+    }
+    .btn-case{
+        padding: 6px 12px;
+        font-size: 10px;
+        margin-bottom: 30px;
+    }
+    .news-info{
+        font-size: 11px;
+        line-height: 18px;
+    }
+    .footer-text-wrap p{
+        font-size: 11px;
+        line-height: 21px;
+    }
+    .footer-text-wrap h4{
+        font-size: 12px;
+    }
+    .footer-text-wrap ul li a{
+        padding-bottom: 6px;
+        font-size: 10px;
+    }
+    .footer-text-wrap li{
+        font-size: 12px;
+    }
+}
